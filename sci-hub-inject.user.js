@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name Sci Hub Injector
 // @version 1.0
-// @updateURL https://raw.githubusercontent.com/rickwierenga/sci-hub-injector/main/sci-hub-inject.user.js
+// @updateURL https://raw.githubusercontent.com/justjosias/sci-hub-injector/main/sci-hub-inject.user.js
 // @description Adds SciHub links to popular publishing websites to make free access to science even easier.
-// @icon https://raw.githubusercontent.com/rickwierenga/sci-hub-injector/main/icon.png
+// @icon https://raw.githubusercontent.com/justjosias/sci-hub-injector/main/icon.png
 // @include https://pubmed.ncbi.nlm.nih.gov/*
 // @include https://www.nature.com/*
 // @include https://www.tandfonline.com/*
@@ -74,7 +74,7 @@ function sciencedirect() {
       rel="nofollow"
       href="${sciHubLink(doi)}"
       >
-      <img width="24" height="24" src="https://sci-hub.se/misc/img/ravenround.gif" /> 
+      <img width="24" height="24" src="https://sci-hub.se/misc/img/ravenround.gif" />
       <span class="link-button-text">Access on&nbsp;<strong>SciHub</strong></span></a
     >
   </li>
@@ -93,7 +93,7 @@ function eurekaSelect() {
     <a href="${sciHubLink(doi)}" class="btn btn-download hvr-icon-hang">
     View on SciHub
 
-    <img width="24" height="24" src="https://sci-hub.se/misc/img/ravenround.gif" /> 
+    <img width="24" height="24" src="https://sci-hub.se/misc/img/ravenround.gif" />
     </a>
   </div>
   `;
