@@ -12,6 +12,8 @@ Please contribute new websites!
 * Firefox: https://addons.mozilla.org/en-US/firefox/addon/scihub-injector/ (submitted)
 * Brave: should work when you replace `chrome://extensions` with `brave://extensions`. Not tested.
 
+* You can also install it with Tampermonkey (for Google) or Greasemonkey (for Firefox) using the UserScript option. Just copy/paste the js file and make a new script in Tamper/Greasemonkey.
+
 ## Supported sites
 
 - PubMed
